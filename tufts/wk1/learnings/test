@@ -1,0 +1,14 @@
+ros2 topic pub /Rumbling/cmd_audio irobot_create_msgs/msg/AudioNoteVector "{append: false, notes: [{frequency: 392, max_runtime: {sec: 0,nanosec: 177500000}}, {frequency: 523, max_runtime: {sec: 0,nanosec: 355000000}}, {frequency: 587, max_runtime: {sec: 0,nanosec: 177500000}}, {frequency: 784, max_runtime: {sec: 0,nanosec: 533000000}}]}" -1
+
+ros2 action send_goal /Rumbling/drive_distance irobot_create_msgs/action/DriveDistance "{distance: 0.5,max_translation_speed: 0.15}"
+ros2 action send_goal /Rumbling/rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.57,max_rotation_speed: 0.5}"
+
+ros2 action send_goal /Rumbling/drive_distance irobot_create_msgs/action/DriveDistance "{distance: 0.5,max_translation_speed: 0.15}"
+ros2 action send_goal /Rumbling/rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.57,max_rotation_speed: 0.5}"
+
+ros2 action send_goal /Rumbling/drive_distance irobot_create_msgs/action/DriveDistance "{distance: 0.5,max_translation_speed: 0.15}"
+ros2 action send_goal /Rumbling/rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.57,max_rotation_speed: 0.5}"
+
+ros2 action send_goal /Rumbling/drive_distance irobot_create_msgs/action/DriveDistance "{distance: 0.5,max_translation_speed: 0.15}"
+ros2 action send_goal /Rumbling/rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.57,max_rotation_speed: 0.5}"
+
